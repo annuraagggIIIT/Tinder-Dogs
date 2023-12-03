@@ -1,0 +1,130 @@
+#body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #8f8f8f;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat-black';
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+
+}
+.nav-item{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #8f8f8f;
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat"    
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #8f8f8f;
+    padding: 0 0 0 5%;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 60%;
+    margin: 0 0 0 5%;
+    rotate: 25deg;  
+}
+.feature-box{
+    text-align: center;
+    padding: auto;
+}
+#features{
+    padding: 7% 15%;
+     
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.5rem;
+    
+}
+p{
+    font-size: 1.1rem;
+    color: #8f8f8f;
+}  
+.icon{
+    margin-bottom: 1rem;
+    color:#ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+h2{ 
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: white;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 1000%;
+    margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+    padding-right: 20px;
+}
+.caraousel-item{
+    padding: 7% 15%;
+}
+@media (max-width: 768px){
+    #title{
+        height: 100vh;
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+        }
+}
+.bg-colorr{
+    color: black;
+    background-size: 1rem;
+}
